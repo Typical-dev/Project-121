@@ -9,7 +9,7 @@ while True:
     ret, frame = video.read() 
     print(frame)
     frame = cv2.resize(frame, (640, 480)) 
-    image = cv2.resize(image, (640, 480)) 
+    image = cv2.resize(frame, (640, 480)) 
   
   
     u_black = np.array([104, 153, 70]) 
